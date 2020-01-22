@@ -61,12 +61,13 @@ namespace IterationStatements
             // in your conditional, as long as i is less than or equal to the length of "numbers"
             // and as long as i is greater than or equal to 0
             // Decrement i by 1
-            for (i = 199; i <= numbers.Count && i > 0; i--)
+            for (i = 199; i <= numbers.Count && i >= 0; i--)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(numbers[i]);
                     
                 // Write to the console "numbers" at index i
             }
+            
         }
     }
 }
